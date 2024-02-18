@@ -1,0 +1,82 @@
+@font-face {
+  src: url("../fonts/MonaspaceNeon-Regular.woff"); /*URL to font*/
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
+}
+.title {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: "Monaspace Neon", monospace;
+  max-width: 920px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 96vh;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  line-height: 24px;
+}
+
+main {
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.abstract {
+  text-align: center;
+}
+
+main h1 {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  width: 220px;
+  padding: 0%;
+  margin-left: 50%;
+  margin-right: 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: lightseagreen;
+}
+
+hr {
+  opacity: 0;
+}
+
+footer {
+  display: flex;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
