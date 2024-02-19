@@ -1,4 +1,7 @@
 ---
 title: Now | Harshith reddy - nothr
 ---
-I am currently making few update to my site
+
+`This page gets updated everytime`
+
+I am currently tinkering few languages and reading man pages instead of browsing internet.
