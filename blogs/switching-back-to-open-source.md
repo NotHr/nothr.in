@@ -1,5 +1,6 @@
 ---
 title: "Switching back to Open source"
+date: "Nov 12, 2023"
 ---
 
 # Switching back to Open Source

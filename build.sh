@@ -9,9 +9,10 @@ title: Blogs | Harshith reddy - nothr
 # List of Blogs" > blogs.md
 
 for f in "./blogs"/*.md; do
-    title=$(cat $f | grep -Po '(").*' | sed 's/"//g')
+    title=$(cat $f | grep -Po '(").*' | sed 's/"//g' | head -n 1)
+    date=$(cat $f | grep -Po '(").*' | sed 's/"//g' | head -n 2 | tail -n 1)    
     link="${f%.md}.html"
-    echo "- [$title](/$link)" >> blogs.md
+    echo "- \`$date\` - [$title](/$link)" >> blogs.md
 done
 
 echo Building Index
