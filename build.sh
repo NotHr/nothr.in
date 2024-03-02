@@ -37,3 +37,7 @@ for f in "./blogs"/*.md; do
     $f > "${f%.md}.html"
 done
 
+echo Moving to site 
+
+find . -maxdepth 1 -type f ! -name 'template.html' -name '*.html' -exec mv {} site/ \;
+mv blogs/*.html site/blogs/
