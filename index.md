@@ -2,6 +2,8 @@
 title: Harshith reddy - nothr
 ---
 
+![pfp](/static/pfp1.jpg)
+
 Hello I am Harshith, a second year student from GITAM Hyderabad, a Linux and FOSS enthusiaist.
 
 I daily drive Arch linux(i use arch btw). I love to tinker with my system.

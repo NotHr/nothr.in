@@ -47,7 +47,10 @@ nav {
 .abstract {
   text-align: center;
 }
-
+main {
+  display: flex;
+  flex-direction: column;
+}
 main h1 {
   text-align: center;
 }
@@ -79,4 +82,16 @@ footer {
   margin-top: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+img[alt="pfp"] {
+  max-width: 274px;
+  border-radius: 1000px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  opacity: 0;
 }
